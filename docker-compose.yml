@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  dotnet462-api:
+    image: dotnet462-api
+    build:
+      context: .\dotnet462-api
+      dockerfile: Dockerfile
